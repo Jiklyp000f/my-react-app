@@ -1,13 +1,9 @@
-import Navbar from './Navbar/Navbar'
-import Main from './Main/Main'
-import Footer from './Footer/Footer'
+import Layout from './Layout'
 
 function App() {
   return (
     <>
-    <Navbar />
-    <Main />
-    <Footer />
+    <Layout/>
     </>
   )
 }
