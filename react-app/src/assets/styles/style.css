@@ -1,0 +1,362 @@
+html {
+    overflow-x: hidden;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+li.nav-item{
+    margin-right: 20px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+
+
+h1 {
+    color: #1B365D;
+    font-weight: bold; /* Жирный шрифт */
+}
+
+p {
+    color: #434140;
+    font-weight: bold;
+}
+
+img.mama_sin{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+img.logo{
+    height: 42px;
+    width: 94.13px;
+    margin-top: 1%;
+    margin-left: 28%;
+}
+
+img.card-img-top {
+    border-radius: 0; /* Убираем скругление углов у изображений */
+}
+
+button.btn.btn-primary {
+    color: #1B365D;
+    font-weight: bold;
+    background-color: white; /* Белый фон */
+    border: 1px solid white; /* Цвет границы  */
+    border-radius: 25px; /* Скруглённые углы, можно изменить радиус */
+    padding: 10px 20px;
+}
+
+button.btn.btn-outline-success {
+    color: #1B365D;
+    font-weight: bold;
+    background-color: white; /* Белый фон */
+    border: 2px solid #1B365D; /* Цвет границы  */
+    border-radius: 8px; /* Скруглённые углы, можно изменить радиус */
+    padding: 7px 20px;
+    font-size: 15px;
+
+}
+a.text-muted {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p.red{
+    font-size: 16px;
+}
+
+a.nav-link.active {
+    color: #1B365D !important;
+}
+
+
+
+/* a.text-black {
+    color: #1B365D !important;
+} */
+
+div.overlay {
+    text-align: center;
+    margin-top: -127px;
+}
+
+div.independent-block {
+    position: relative;
+    width: 499px;
+    height: 86px;
+    background-color: #F1C0C7;
+    display: flex; /* Используем Flexbox для выравнивания */
+    align-items: center; /* Выравнивание по вертикали */
+    padding: 10px; /* Добавляем отступы для лучшего внешнего вида */
+    margin-top: -60px;
+}
+
+div.independent-block img {
+    width: 84px; /* Устанавливаем ширину изображения */
+    height: 54px; /* Устанавливаем высоту изображения */
+    margin-right: 10px; /* Отступ справа от изображения */
+}
+
+div.in-block {
+    position: relative;
+    height: 86px;
+    display: flex; /* Используем Flexbox для выравнивания */
+    align-items: center; /* Выравнивание по вертикали */
+    padding: 10px; /* Добавляем отступы для лучшего внешнего вида */
+    margin-top: -20px;
+}
+
+div.in-block img {
+    width: 84px; /* Устанавливаем ширину изображения */
+    height: 54px; /* Устанавливаем высоту изображения */
+    margin-right: 10px; /* Отступ справа от изображения */
+}
+
+div.row {
+    margin-top: 90px;
+}
+
+div.card-body {
+    background-color: #F7F7F7;
+}
+
+.background-rectangle {
+    width: 100%; /* Занимает всю ширину экрана */
+    height: 497px; /* Высота прямоугольника, можно изменить по желанию */
+    background-color:#D0E8EAC7; /* Цвет фона */
+    margin-top: -459px;
+}
+
+.background-rectangle2{
+    width: 100%; /* Занимает всю ширину экрана */
+    height: 1500px; /* Высота прямоугольника, можно изменить по желанию */
+    background-color:#D0E8EAC7; /* Цвет фона */
+    margin-top: -1400px;
+}
+
+h5.card-title {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+p.card-text {
+    color: #FFFFFF;
+}
+
+small.small-text{
+    font-size: 11px;
+    color: #AEABA8;
+}
+
+.position-relative {
+    position: relative;
+}
+  
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px; /* Отступы для текста */
+    margin-top: 2%;
+    margin-left: 4%;
+    color: white; /* Цвет текста */
+}
+
+[data-type="mama_sin"] .d-flex.justify-content-center.align-items-center{
+    height: 100vh;
+    position: absolute;
+    top: 25px;left: -60%;
+    right: 0;
+}
+
+[data-type="mama_sin"] .row.mt-3{
+    margin-left: 10%;
+}
+
+[data-type="mama_sin"] .col-md-6{
+    text-align: left;
+}
+
+[data-type="mama_doch"] h1{
+    text-align: left;
+    margin-left: 3%;
+}
+
+[data-type="fhoto1"] h2{
+    color: #1B365D;
+    font-weight: bold;
+} 
+[data-type="fhoto1"] p{
+    color: #434140 !important;
+}
+
+[data-type="fhoto1"] a{
+    color: #1B365D !important;
+    font-weight: bold;
+}
+
+[data-type="fhoto2"] .h2{
+    color: #FFFFFF;
+    font-weight: bold;
+} 
+[data-type="fhoto2"] p{
+    color: #FFFFFF !important;
+}
+
+[data-type="fhoto2"] a{
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+
+div.row.align-items-center[data-type="footer"] {
+    margin-top: 0px;
+}
+
+[data-type="crd"] {
+    text-align: center; /* Центрирование текста для кнопок */
+}
+
+[data-type="crd"] .card-title {
+    float: left; /* Заголовок слева */
+    color: #1B365D;
+}
+
+[data-type="crd"] .card-subtitle {
+    float: right; /* Цена справа */
+}
+
+[data-type="crd"] .clearfix {
+    clear: both; /* Очищаем float */
+}
+
+[data-type="crd"] .btn {
+    display: inline-block; /* Кнопки как блочные элементы */
+}
+
+[data-type="crd"] .btn-primary {
+    margin-bottom: 0.5rem; /* Отступ между кнопками */
+    background-color: #1877F2 !important;
+}
+
+[data-type="crd"] p.card-text {
+    color: #434140 !important;
+}
+
+.card-body[data-type="crd"] {
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.card-body[data-type="crd"]:hover {
+    transform: scale(1.02);
+}
+
+.row.g-3[data-type="cards"] {
+    padding: 3%;
+}
+
+[data-type="foot"] a {
+    color: #DADBDD;
+}
+
+[data-type="foot"] p{
+    color: #9CA5B0;
+}
+
+[data-type="foot"] .btn.btn-primary.btn-sm{
+    margin-top: 4%;
+}
+
+[data-type="foot"] .btn.btn-link.btn-sm {
+    margin-top: 4%;
+    padding: 6%;
+    border-color: #3D434C;
+}
+
+[data-type] .col-md-3.text-top{
+    margin-top: -17%;
+    margin-left: 2%;
+}
+
+[data-type="alexa-container"] img {
+    width: 60px;
+}
+
+/* Стили для контейнера с микрофоном */
+[data-type="micro-comp-container"] {
+    margin-bottom: 4%;
+}
+
+/* Стили для первого контейнера */
+[data-type="image-container-left"] {
+    margin-top: -5%;
+}
+
+[data-type="text-container"] {
+    margin-top: -50%;
+}
+
+[data-type="header-title-container"] h1 {
+    text-align: left;
+}
+
+.compare-products-container {
+    margin-top: 2%;
+}
+
+.card-Holder {
+    padding: 1%;
+}
+
+.carousel-indicators{
+    bottom: -7%;
+}
+
+.carousel-control-prev-icon{
+    background-image:none;
+}
+
+.carousel-control-next-icon{
+    background-image:none;
+}
+
+.collapse.navbar-collapse{
+    margin-right: 8%;
+}
+
+.footer-bg {
+  background-color: #272E38;
+}
+
+.footer-logo {
+  max-width: 80px;
+  height: auto;
+}
+
+.footer-links-container {
+  width: 300px;
+}
+
+.footer-links-margin {
+  margin-top: 4%;
+}
+
+.footer-email-text {
+  font-size: 12px;
+  margin: 0;
+}
+
+.footer-disclaimer-text {
+  font-size: 11px;
+}
