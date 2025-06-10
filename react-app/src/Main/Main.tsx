@@ -1,3 +1,5 @@
+import CardsContainer from "./CardsContainer";
+
 export default function Main() {
     return <>
      <div className="container-fluid p-0" data-type="mama_sin">
@@ -24,8 +26,10 @@ export default function Main() {
         </div>
     </div>
     <div className="container-fluid p-0">
-        <div className="row g-3" data-type="cards"></div>
-    </div>
+        <div className="row g-3" data-type="cards">
+          <CardsContainer />
+        </div>
+      </div>
     <div className="container-fluid p-0 mt-5" data-type="mama_doch">
       <div className="text-center">
           <h1>Smart Camera keeps every <br></br> moment front and center</h1>
