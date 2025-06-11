@@ -170,8 +170,10 @@ small.small-text{
 [data-type="mama_sin"] .d-flex.justify-content-center.align-items-center{
     height: 100vh;
     position: absolute;
-    top: 25px;left: -60%;
+    top: 25px;
+    left: -60%;
     right: 0;
+    margin-top: 3%;
 }
 
 [data-type="mama_sin"] .row.mt-3{

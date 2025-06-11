@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 interface NavbarProps {
   onLoginClick: () => void;
 }
@@ -6,7 +8,9 @@ const Navbar = ({ onLoginClick } : NavbarProps) => {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid p-0">
-            <a className="navbar-brand" href="#"><img className="logo" src="src/assets/images/logo.png" alt="logo"></img></a>
+            <Link to={"/"}>
+            <img className="logo" src="src/assets/images/logo.png" alt="logo"></img>
+            </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
                 <span className="navbar-toggler-icon"></span>
             </button>

@@ -1,6 +1,6 @@
 import CardsContainer from "./CardsContainer";
 
-export default function Main() {
+export default function HomePage() {
     return <>
      <div className="container-fluid p-0" data-type="mama_sin">
         <img className="mama_sin" src="src/assets/images/mama_sin.jpg" alt="mama_sin"></img>
