@@ -354,3 +354,9 @@ div.row.align-items-center[data-type="footer"] {
 .footer-disclaimer-text {
   font-size: 11px;
 }
+
+body.modal-open {
+
+padding-right: 0 !important;
+
+}
