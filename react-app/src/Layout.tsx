@@ -3,7 +3,7 @@ import Footer from './Footer/Footer';
 import Modal from './Navbar/Modal';
 import type { ModalHandlers } from './Navbar/Modal'; 
 import { useRef } from 'react';
-import { Outlet } from 'react-router-dom'; // Импорт Outlet
+import { Outlet } from 'react-router-dom'; 
 
 function Layout() {
   const modalRef = useRef<ModalHandlers>(null);
@@ -18,7 +18,7 @@ function Layout() {
     <>  
       <Modal ref={modalRef} />
       <Navbar onLoginClick={handleLoginClick} />
-      <Outlet /> {/* Заменяем <Main /> на Outlet */}
+      <Outlet />
       <Footer />
     </>
   );
