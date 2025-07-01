@@ -360,3 +360,12 @@ body.modal-open {
 padding-right: 0 !important;
 
 }
+
+.card p.card-text {
+  color: white !important;
+  font-weight: normal;
+}
+
+ .card-title {
+        margin-top: -58%;
+    }
