@@ -28,7 +28,7 @@ export function CardsSection() {
   return (
     <div className="container-fluid p-0">
       <div className="row g-3" data-type="cards">
-        <CardsContainer />
+        <CardsContainer limit={3} />
       </div>
     </div>
   );
