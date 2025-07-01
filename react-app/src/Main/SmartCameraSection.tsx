@@ -5,7 +5,7 @@ export default function SmartCameraSection() {
     <div className="container-fluid p-0 mt-5" data-type="mama_doch">
       <div className="text-center">
         <h1>Smart Camera keeps every <br /> moment front and center</h1>
-        <img src="src/assets/images/ctol.jpg" className="img-fluid" alt="Изображение" />
+        <img src="src/assets/images/shelby_gonka.jpg" className="img-fluid" alt="shelby_gonka" />
         <div className="row mt-3">
           <div className="col-md-6">
             <h5>Keeps up with the action</h5>

@@ -5,7 +5,7 @@ export default function FeatureSection() {
     <div className="container-fluid p-0">
       <div className="row p-3">
         <div className="col-md-6 text-left position-relative" data-type="photo1-container">
-          <img src="src/assets/images/imgR.jpg" className="img-fluid" alt="Изображение 1" />
+          <img src="src/assets/images/bmw.webp" className="img-fluid" alt="Изображение 1" />
           <div className="text-overlay" data-type="fhoto1">
             <h2>Private by design</h2>
             <p>
@@ -16,7 +16,7 @@ export default function FeatureSection() {
           </div>
         </div>
         <div className="col-md-6 text-left position-relative" data-type="photo2-container">
-          <img src="src/assets/images/imgL.jpg" className="img-fluid" alt="Изображение 2" />
+          <img src="src/assets/images/turbo_surpa.jpg" className="img-fluid" alt="Изображение 2" />
           <div className="text-overlay" data-type="fhoto2">
             <h2>Work smarter from home</h2>
             <p>

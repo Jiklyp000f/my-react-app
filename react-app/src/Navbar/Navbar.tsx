@@ -9,7 +9,7 @@ const Navbar = ({ onLoginClick } : NavbarProps) => {
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid p-0">
             <Link to={"/"}>
-            <img className="logo" src="src/assets/images/logo.png" alt="logo"></img>
+            <img className="logo" src="src/assets/images/logo_auto_foot.jpg" alt="logo"></img>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
                 <span className="navbar-toggler-icon"></span>

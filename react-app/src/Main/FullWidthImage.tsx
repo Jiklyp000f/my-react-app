@@ -10,7 +10,7 @@ export default function FullWidthImage() {
         <div className="position-absolute w-100 h-100" ></div>
         
         <img 
-          src="src/assets/images/clown.jpg" 
+          src="src/assets/images/shelby.jpg" 
           className="img-fluid w-100" 
           alt="Дети играют с AR-масками" 
         />

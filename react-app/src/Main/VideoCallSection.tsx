@@ -5,7 +5,7 @@ export default function VideoCallSection() {
       <div className="container-fluid p-0">
         <div className="row align-items-center">
           <div className="col-md-6" data-type="image-container-left">
-            <img src="src/assets/images/planshet.jpg" className="img-fluid" alt="Изображение слева" />
+            <img src="src/assets/images/speed_hunter.jpg" className="img-fluid speed" alt="Изображение слева" />
           </div>
           <div className="col-md-6">
             <div className="d-flex flex-column align-items-start" data-type="text-container">

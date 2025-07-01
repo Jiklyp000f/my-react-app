@@ -5,7 +5,7 @@ export default function Footer() {
   <div className="container-fluid p-0 footer-bg">
     <div className="row align-items-center" data-type="footer">
       <div className="col-md-3 text-top">
-        <img src="src/assets/images/foot_logo.png" alt="footer_logo" className="footer-logo"></img>
+        <img src="src/assets/images/logo_auto_foot.jpg" alt="footer_logo" className="footer-logo"></img>
       </div>
       <div className="col-md-8" data-type="foot">
         <div className="d-flex align-items-start">
