@@ -17,13 +17,9 @@ const Navbar = ({ onLoginClick } : NavbarProps) => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                        <a className="nav-link active" href="#">Products</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link active" href="#">Features</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link active" href="#">Support</a>
+                        <Link to="/cards" className="nav-link">
+                          Cards
+                        </Link>
                     </li>
                 </ul>
       <button 
