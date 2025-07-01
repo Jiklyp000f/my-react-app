@@ -1,7 +1,6 @@
 import * as bootstrap from 'bootstrap'; 
 import { forwardRef, useImperativeHandle, useRef } from 'react';
 import type { Ref } from 'react';
-
 export interface ModalHandlers {
   show: () => void;
   hide: () => void;

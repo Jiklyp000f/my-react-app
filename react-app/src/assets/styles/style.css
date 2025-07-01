@@ -362,10 +362,14 @@ padding-right: 0 !important;
 }
 
 .card p.card-text {
-  color: white !important;
+  color: white;
   font-weight: normal;
 }
 
- .card-title {
+.card-title {
         margin-top: -58%;
     }
+
+.card-title.carousel-title {
+    margin-top: 0;
+}

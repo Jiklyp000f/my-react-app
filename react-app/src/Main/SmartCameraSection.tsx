@@ -1,3 +1,5 @@
+
+
 export default function SmartCameraSection() {
   return (
     <div className="container-fluid p-0 mt-5" data-type="mama_doch">

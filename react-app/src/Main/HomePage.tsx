@@ -8,7 +8,6 @@ import PromotionBanner from "./PromotionBanner";
 import SmartCameraSection from "./SmartCameraSection";
 import VideoCallSection from "./VideoCallSection";
 
-
 export default function HomePage() {
   return (
     <>

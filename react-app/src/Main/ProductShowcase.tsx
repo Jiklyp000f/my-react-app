@@ -1,3 +1,5 @@
+
+
 export default function ProductShowcase() {
   return (
     <div className="container-fluid p-0">
@@ -26,7 +28,7 @@ export default function ProductShowcase() {
                             <div className="col-md-3">
                                 <div className="card">
                                     <div className="card-body" data-type="crd">
-                                        <h5 className="card-title">Portal TV</h5>
+                                        <h5 className="card-title carousel-title">Portal TV</h5>
                                         <h6 className="card-subtitle text-muted">$149</h6>
                                         <img src="src/assets/images/tovar1.jpg" className="card-img-top" alt="Товар 1"></img>
                                         <p className="card-text">Smart video calling on <br></br>your TV</p>
@@ -41,7 +43,7 @@ export default function ProductShowcase() {
                             <div className="col-md-3">
                                 <div className="card">
                                     <div className="card-body" data-type="crd">
-                                        <h5 className="card-title">Portal</h5>
+                                        <h5 className="card-title carousel-title">Portal</h5>
                                         <h6 className="card-subtitle text-muted">$179</h6>
                                         <img src="src/assets/images/tovar2.jpg" className="card-img-top" alt="Товар 2"></img>
                                         <p className="card-text">Smart video calling <br></br>on a 10” HD display</p>
@@ -56,7 +58,7 @@ export default function ProductShowcase() {
                             <div className="col-md-3">
                                 <div className="card">
                                     <div className="card-body" data-type="crd">
-                                        <h5 className="card-title">Portal+</h5>
+                                        <h5 className="card-title carousel-title">Portal+</h5>
                                         <h6 className="card-subtitle text-muted">$279</h6>
                                         <img src="src/assets/images/tovar3.jpg" className="card-img-top" alt="Товар 3"></img>
                                         <p className="card-text">Smart video calling on <br></br>a 15.6” HD display</p>
@@ -71,7 +73,7 @@ export default function ProductShowcase() {
                             <div className="col-md-3">
                                 <div className="card">
                                     <div className="card-body" data-type="crd">
-                                        <h5 className="card-title">Portal Mini</h5>
+                                        <h5 className="card-title carousel-title">Portal Mini</h5>
                                         <h6 className="card-subtitle text-muted">$129</h6>
                                         <img src="src/assets/images/tovar4.jpg" className="card-img-top" alt="Товар 4"></img>
                                         <p className="card-text">Smart video calling <br></br>on an 8” HD display</p>
@@ -90,7 +92,7 @@ export default function ProductShowcase() {
                                 <div className="col-md-3">
                                     <div className="card">
                                         <div className="card-body" data-type="crd">
-                                            <h5 className="card-title">Portal TV</h5>
+                                            <h5 className="card-title carousel-title">Portal TV</h5>
                                             <h6 className="card-subtitle text-muted">$149</h6>
                                             <img src="src/assets/images/tovar1.jpg" className="card-img-top" alt="Товар 1"></img>
                                             <p className="card-text">Smart video calling on <br></br>your TV</p>
@@ -105,7 +107,7 @@ export default function ProductShowcase() {
                                 <div className="col-md-3">
                                     <div className="card">
                                         <div className="card-body" data-type="crd">
-                                            <h5 className="card-title">Portal</h5>
+                                            <h5 className="card-title carousel-title">Portal</h5>
                                             <h6 className="card-subtitle text-muted">$179</h6>
                                             <img src="src/assets/images/tovar2.jpg" className="card-img-top" alt="Товар 2"></img>
                                             <p className="card-text">Smart video calling <br></br>on a 10” HD display</p>
@@ -120,7 +122,7 @@ export default function ProductShowcase() {
                                 <div className="col-md-3">
                                     <div className="card">
                                         <div className="card-body" data-type="crd">
-                                            <h5 className="card-title">Portal+</h5>
+                                            <h5 className="card-title carousel-title">Portal+</h5>
                                             <h6 className="card-subtitle text-muted">$279</h6>
                                             <img src="src/assets/images/tovar3.jpg" className="card-img-top" alt="Товар 3"></img>
                                             <p className="card-text">Smart video calling on <br></br>a 15.6” HD display</p>
@@ -135,7 +137,7 @@ export default function ProductShowcase() {
                                 <div className="col-md-3">
                                     <div className="card">
                                         <div className="card-body" data-type="crd">
-                                            <h5 className="card-title">Portal Mini</h5>
+                                            <h5 className="card-title carousel-title">Portal Mini</h5>
                                             <h6 className="card-subtitle text-muted">$129</h6>
                                             <img src="src/assets/images/tovar4.jpg" className="card-img-top" alt="Товар 4"></img>
                                             <p className="card-text">Smart video calling <br></br>on an 8” HD display</p>

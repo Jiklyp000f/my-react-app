@@ -1,3 +1,5 @@
+
+
 export default function PromotionBanner() {
   return (
     <div className="container-fluid p-0">
