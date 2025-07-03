@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 export default function FeatureSection() {
@@ -12,7 +13,9 @@ export default function FeatureSection() {
               Используем сертифицированные компоненты и системы защиты. <br />
               Каждый элемент проверен на надежность.
             </p>
-            <a href="#" className="text-white">Примеры работ</a>
+            <Link to="*">
+              <a href="#" className="text-white">Примеры работ</a>
+            </Link>
           </div>
         </div>
         <div className="col-md-6 text-left position-relative" data-type="photo2-container">
@@ -24,7 +27,9 @@ export default function FeatureSection() {
               раскрываем истинный потенциал <br />
               вашего авто.
             </p>
-            <a href="#" className="text-white">Примеры работ</a>
+            <Link to="*">
+              <a href="#" className="text-white">Примеры работ</a>
+            </Link>
           </div>
         </div>
       </div>

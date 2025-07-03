@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 export default function ProductShowcase() {
@@ -11,7 +12,9 @@ export default function ProductShowcase() {
           <div className="in-block" data-type="micro-comp-container">
             <img src="src/assets/images/logo_autonexus2.png" alt="Эмблема" />
             <div>
-              <a href="#" className="text-muted">Закажи пакет услуг – получи VIP-обслуживание</a>
+              <Link to="*">
+                <a href="#" className="text-muted">Закажи пакет услуг – получи VIP-обслуживание</a>
+              </Link>
               <p>Персональный менеджер и расширенная гарантия.</p>
             </div>
           </div>
@@ -33,9 +36,13 @@ export default function ProductShowcase() {
                                         <img src="src/assets/images/nos.png" className="card-img-top" alt="Товар 1"></img>
                                         <p className="card-text">Мгновенный прирост мощности +150 л.с.<br></br>для драг-рейсинга</p>
                                         <div>
+                                            <Link to="*">
                                             <button className="btn btn-primary">Заказать</button>
+                                            </Link>
                                             <br></br>
+                                            <Link to="*">
                                             <button className="btn btn-link">Описание</button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -48,9 +55,13 @@ export default function ProductShowcase() {
                                         <img src="src/assets/images/podveska.png" className="card-img-top" alt="Товар 2"></img>
                                         <p className="card-text">Койловеры с регулировкой жесткости<br></br>и клиренса</p>
                                         <div>
+                                            <Link to="*">
                                             <button className="btn btn-primary">Заказать</button>
+                                            </Link>
                                             <br></br>
+                                            <Link to="*">
                                             <button className="btn btn-link">Описание</button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -63,9 +74,13 @@ export default function ProductShowcase() {
                                         <img src="src/assets/images/nagnetatel.png" className="card-img-top" alt="Товар 3"></img>
                                         <p className="card-text">Компрессорный наддув<br></br>без турбоямы</p>
                                         <div>
+                                            <Link to="*">
                                             <button className="btn btn-primary">Заказать</button>
+                                            </Link>
                                             <br></br>
+                                            <Link to="*">
                                             <button className="btn btn-link">Описание</button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -78,9 +93,13 @@ export default function ProductShowcase() {
                                         <img src="src/assets/images/turbina.png" className="card-img-top" alt="Товар 4"></img>
                                         <p className="card-text">Турбокит Garrett для увеличения<br></br>мощности до 40%</p>
                                         <div>
+                                            <Link to="*">
                                             <button className="btn btn-primary">Заказать</button>
+                                            </Link>
                                             <br></br>
+                                            <Link to="*">
                                             <button className="btn btn-link">Описание</button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -97,9 +116,13 @@ export default function ProductShowcase() {
                                         <img src="src/assets/images/nos.png" className="card-img-top" alt="Товар 1"></img>
                                         <p className="card-text">Мгновенный прирост мощности +150 л.с.<br></br>для драг-рейсинга</p>
                                         <div>
+                                            <Link to="*">
                                             <button className="btn btn-primary">Заказать</button>
+                                            </Link>
                                             <br></br>
+                                            <Link to="*">
                                             <button className="btn btn-link">Описание</button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -112,9 +135,13 @@ export default function ProductShowcase() {
                                         <img src="src/assets/images/podveska.png" className="card-img-top" alt="Товар 2"></img>
                                         <p className="card-text">Койловеры с регулировкой жесткости<br></br>и клиренса</p>
                                         <div>
+                                            <Link to="*">
                                             <button className="btn btn-primary">Заказать</button>
+                                            </Link>
                                             <br></br>
+                                            <Link to="*">
                                             <button className="btn btn-link">Описание</button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -127,9 +154,13 @@ export default function ProductShowcase() {
                                         <img src="src/assets/images/nagnetatel.png" className="card-img-top" alt="Товар 3"></img>
                                         <p className="card-text">Компрессорный наддув<br></br>без турбоямы</p>
                                         <div>
+                                            <Link to="*">
                                             <button className="btn btn-primary">Заказать</button>
+                                            </Link>
                                             <br></br>
+                                            <Link to="*">
                                             <button className="btn btn-link">Описание</button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -142,9 +173,13 @@ export default function ProductShowcase() {
                                         <img src="src/assets/images/turbina.png" className="card-img-top" alt="Товар 4"></img>
                                         <p className="card-text">Турбокит Garrett для увеличения<br></br>мощности до 40%</p>
                                         <div>
+                                            <Link to="*">
                                             <button className="btn btn-primary">Заказать</button>
+                                            </Link>
                                             <br></br>
+                                            <Link to="*">
                                             <button className="btn btn-link">Описание</button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -165,7 +200,9 @@ export default function ProductShowcase() {
       </div>
 
       <div className="text-center mb-3 compare-products-container">
+        <Link to="*">
         <button className="btn btn-secondary">Сравнить пакеты</button>
+        </Link>
       </div>
       <div className="background-rectangle2"></div>
     </div>

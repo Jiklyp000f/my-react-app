@@ -11,7 +11,6 @@ export default function VideoCallSection() {
             <div className="d-flex flex-column align-items-start" data-type="text-container">
               <div className="mb-2">
                 <img src="src/assets/images/molniya.jpg" className="img-fluid" alt="Эмблема 1" />
-                <img src="src/assets/images/whatsapp.jpg" className="img-fluid" alt="Эмблема 2" />
               </div>
               <h1>Тюнинг, <br /> который говорит <br /> сам за себя</h1>
               <p>

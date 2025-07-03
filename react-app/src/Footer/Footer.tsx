@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 export default function Footer() {
@@ -13,29 +14,55 @@ export default function Footer() {
             <div className="d-flex footer-links-margin">
               <div className="col-md-4"> 
                 <div className="d-flex flex-column">
+                  <Link to="*">
                   <a href="#">Главная</a>
+                  </Link>
+                  <Link to="*">
                   <a href="#">Услуги</a>
+                  </Link>
+                  <Link to="*">
                   <a href="#">Технологии</a>
+                  </Link>
+                  <Link to="*">
                   <a href="#">Безопасность</a>
+                  </Link>
+                  <Link to="*">
                   <a href="#">Поддержка</a>
+                  </Link>
+                  <Link to="*">
                   <a href="#">Карта сайта</a>
+                  </Link>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="d-flex flex-column">
+                  <Link to="*">
                   <a href="#">Конфиденциальность</a>
+                  </Link>
+                  <Link to="*">
                   <a href="#">Файлы cookie</a>
+                  </Link>
+                  <Link to="*">
                   <a href="#">Условия</a>
+                  </Link>
+                  <Link to="*">
                   <a href="#">Информация</a>
+                  </Link>
+                  <Link to="*">
                   <a href="#">Условия</a>
+                  </Link>
+                  <Link to="*">
                   <a href="#">Реклама</a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
           <div className="ml-0 footer-links-margin"> 
             <p className="footer-email-text">Подпишитесь на рассылку AutoNexus, <br></br>чтобы получать новости о наших услугах и акциях.</p>
+            <Link to="*">
             <button className="btn btn-primary btn-sm">Подписаться</button>
+            </Link>
             <button className="btn btn-link btn-sm">Россия (Русский)</button>
           </div>
         </div>

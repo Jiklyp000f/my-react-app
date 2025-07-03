@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./FullWidthImage.css";
 
 export default function FullWidthImage() {
@@ -24,10 +25,11 @@ export default function FullWidthImage() {
               Создаем автомобили, которые становятся легендами улиц и треков.
             </p>
             
-
+            <Link to="*">
             <button className="btn btn-light btn-lg px-4 py-2 mb-4 fw-medium">
               Создать
             </button>
+            </Link>
 
             <div className="d-flex flex-column gap-2">
               <div className="d-flex align-items-center">
@@ -36,7 +38,7 @@ export default function FullWidthImage() {
               </div>
               <div className="d-flex align-items-center">
                 <span className="me-2">•</span>
-                <span>нженерная точность и бескомпромиссное качество</span>
+                <span>Инженерная точность и бескомпромиссное качество</span>
               </div>
             </div>
           </div>

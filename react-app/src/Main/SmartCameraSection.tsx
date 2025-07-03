@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 export default function SmartCameraSection() {
@@ -14,7 +15,9 @@ export default function SmartCameraSection() {
               учитывая все пожелания клиента <br />
               и технические возможности авто.
             </p>
-            <a href="#" className="text-darkblue">Подробнее</a>
+            <Link to="*">
+              <a href="#" className="text-darkblue">Подробнее</a>
+            </Link>
           </div>
           <div className="col-md-6">
             <h5>Технологии будущего</h5>
@@ -23,7 +26,9 @@ export default function SmartCameraSection() {
               и системы для максимальной <br />
               производительности.
             </p>
-            <a href="#" className="text-darkblue">Подробнее</a>
+            <Link to="*">
+              <a href="#" className="text-darkblue">Подробнее</a>
+            </Link>
           </div>
         </div>
       </div>

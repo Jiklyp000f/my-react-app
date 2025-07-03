@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 export default function PromotionBanner() {
@@ -6,7 +7,9 @@ export default function PromotionBanner() {
       <div className="independent-block">
         <img src="src/assets/images/logo_autonexus2.png" alt="Эмблема" />
         <div>
-          <a href="#" className="text-muted">Закажи 2 услуги – получи скидку 15%*</a>
+          <Link to="*">
+            <a href="#" className="text-muted">Закажи 2 услуги – получи скидку 15%*</a>
+          </Link>
           <p className="red">Доставка деталей по всей России без переплат.</p>
         </div>
       </div>
