@@ -13,42 +13,42 @@ export default function Footer() {
             <div className="d-flex footer-links-margin">
               <div className="col-md-4"> 
                 <div className="d-flex flex-column">
-                  <a href="#">Home</a>
-                  <a href="#">Products</a>
-                  <a href="#">Features</a>
-                  <a href="#">Private by Design</a>
-                  <a href="#">Support</a>
-                  <a href="#">Sitemap</a>
+                  <a href="#">Главная</a>
+                  <a href="#">Услуги</a>
+                  <a href="#">Технологии</a>
+                  <a href="#">Безопасность</a>
+                  <a href="#">Поддержка</a>
+                  <a href="#">Карта сайта</a>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="d-flex flex-column">
-                  <a href="#">Privacy Policy</a>
-                  <a href="#">Cookies</a>
-                  <a href="#">Terms of Use</a>
-                  <a href="#">Legal</a>
-                  <a href="#">Terms of Sale</a>
-                  <a href="#">Ad Choices</a>
+                  <a href="#">Конфиденциальность</a>
+                  <a href="#">Файлы cookie</a>
+                  <a href="#">Условия</a>
+                  <a href="#">Информация</a>
+                  <a href="#">Условия</a>
+                  <a href="#">Реклама</a>
                 </div>
               </div>
             </div>
           </div>
           <div className="ml-0 footer-links-margin"> 
-            <p className="footer-email-text">Get emails from Facebook about Portal <br></br>and other Facebook hardware products.</p>
-            <button className="btn btn-primary btn-sm">Sign Up</button>
-            <button className="btn btn-link btn-sm">United States (English)</button>
+            <p className="footer-email-text">Подпишитесь на рассылку AutoNexus, <br></br>чтобы получать новости о наших услугах и акциях.</p>
+            <button className="btn btn-primary btn-sm">Подписаться</button>
+            <button className="btn btn-link btn-sm">Россия (Русский)</button>
           </div>
         </div>
         <div className="mt-1">
-          <p className="footer-disclaimer-text">“Hey Portal” voice command availability varies. Learn more. Screen images simulated. User experience may vary. Requires wireless internet connection and Facebook <br></br>
-                            or WhatsApp account. WhatsApp is not available on tablets. Features, functionality, and content vary and may not be available on all Portal models or <br></br>
-                            in all areas and languages. Some features may require a Facebook account and downloading the Portal mobile app. Additional account registration, terms and 
-                            <br></br>fees may apply.</p>
-          <p className="footer-disclaimer-text">*Represents savings off of regular, non-promotional prices. Both products must be purchased on same receipt to qualify. Valid on qualifying purchases at <br></br>
-                            Not valid on prior purchases and non-transferable. Not valid for cash or cash equivalent. Valid on in-stock products only. Offer may be cancelled <br></br>
-                            or modified at any time without notice. Void where prohibited.</p>
-          <p className="footer-disclaimer-text">©2021 Facebook, Inc. or its affiliates. All rights reserved. Facebook, Portal from Facebook and the Facebook logo are trademarks of Facebook, Inc. Amazon, Alexa <br></br>
-                            and all related logos are trademarks of Amazon.com, Inc. or its affiliates. Other names and brands may be claimed as the property of others.</p>
+          <p className="footer-disclaimer-text">Услуги и их доступность могут отличаться в зависимости от региона. Подробности уточняйте у менеджеров. Изображения на экране смоделированы.  <br></br>
+                            Опыт использования может отличаться. Для некоторых услуг может потребоваться регистрация в системе AutoNexus. <br></br>
+                            Некоторые функции могут быть недоступны для всех моделей автомобилей. Для доступа к некоторым функциям может потребоваться мобильное приложение AutoNexus. Дополнительная регистрация,
+                            <br></br>условия и тарифы могут применяться.</p>
+          <p className="footer-disclaimer-text">*Представляет экономию по сравнению с обычными неакционными ценами. Для получения скидки необходимо приобрести две услуги одновременно. Не суммируется с другими предложениями.  <br></br>
+                            Не действует на предыдущие покупки. Предложение не передается. Не обменивается на наличные. Действует только на товары в наличии. <br></br>
+                            Предложение может быть изменено или отменено в любое время без предварительного уведомления. В некоторых регионах предложение может не действовать.</p>
+          <p className="footer-disclaimer-text">©2023 AutoNexus. Все права защищены. AutoNexus и логотип AutoNexus являются товарными знаками AutoNexus. <br></br>
+                            Другие названия и бренды могут быть товарными знаками их соответствующих владельцев.</p>
         </div>
       </div>
     </div>

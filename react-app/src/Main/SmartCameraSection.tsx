@@ -4,26 +4,26 @@ export default function SmartCameraSection() {
   return (
     <div className="container-fluid p-0 mt-5" data-type="mama_doch">
       <div className="text-center">
-        <h1>Smart Camera keeps every <br /> moment front and center</h1>
+        <h1>Инженерное совершенство <br /> в каждой детали</h1>
         <img src="src/assets/images/shelby_gonka.jpg" className="img-fluid" alt="shelby_gonka" />
         <div className="row mt-3">
           <div className="col-md-6">
-            <h5>Keeps up with the action</h5>
+            <h5>Индивидуальный подход</h5>
             <p className="picture">
-              Smart Camera automatically pans and zooms <br />
-              to keep up with the action. Move and talk freely <br />
-              and always stay in frame.
+              Мы создаем уникальные решения, <br />
+              учитывая все пожелания клиента <br />
+              и технические возможности авто.
             </p>
-            <a href="#" className="text-darkblue">Learn More</a>
+            <a href="#" className="text-darkblue">Подробнее</a>
           </div>
           <div className="col-md-6">
-            <h5>Keeps everyone in view</h5>
+            <h5>Технологии будущего</h5>
             <p className="picture">
-              As more people enter a room, Smart Camera <br />
-              automatically widens to keep everyone in view, <br />
-              so you don’t miss a moment.
+              Используем инновационные материалы <br />
+              и системы для максимальной <br />
+              производительности.
             </p>
-            <a href="#" className="text-darkblue">Learn More</a>
+            <a href="#" className="text-darkblue">Подробнее</a>
           </div>
         </div>
       </div>

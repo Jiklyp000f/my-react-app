@@ -17,26 +17,26 @@ export default function FullWidthImage() {
         <div className="content-overlay position-absolute start-0">
           <div className="text-white px-4 px-md-5 py-3">
             <h1 className="display-4 fw-bold mb-4">
-              Don’t just read the story. Be the story.
+              Не просто машина – твое продолжение.
             </h1>
           
             <p className="lead fs-3 mb-4">
-              With Story Time you can bring your children’s favorite stories to life with music, animation and AR effects.
+              Создаем автомобили, которые становятся легендами улиц и треков.
             </p>
             
 
             <button className="btn btn-light btn-lg px-4 py-2 mb-4 fw-medium">
-              Discover
+              Создать
             </button>
 
             <div className="d-flex flex-column gap-2">
               <div className="d-flex align-items-center">
                 <span className="me-2">•</span>
-                <span>Put a smile on your face with AR masks.</span>
+                <span>Агрессивный дизайн, отражающий твой характер</span>
               </div>
               <div className="d-flex align-items-center">
                 <span className="me-2">•</span>
-                <span>A photo frame that’s picture-perfect</span>
+                <span>нженерная точность и бескомпромиссное качество</span>
               </div>
             </div>
           </div>

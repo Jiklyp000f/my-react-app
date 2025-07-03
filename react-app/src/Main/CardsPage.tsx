@@ -12,7 +12,7 @@ export default function CardsPage() {
 
   return (
     <div>
-      <h2 className="text-center mb-4">All Cards</h2>
+      <h2 className="text-center mb-4">Наши проекты</h2>
       <CardsContainer limit={limit} />
     </div>
   );

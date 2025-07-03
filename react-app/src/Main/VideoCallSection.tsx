@@ -13,14 +13,14 @@ export default function VideoCallSection() {
                 <img src="src/assets/images/molniya.jpg" className="img-fluid" alt="Эмблема 1" />
                 <img src="src/assets/images/whatsapp.jpg" className="img-fluid" alt="Эмблема 2" />
               </div>
-              <h1>Makes video calls <br /> with Messenger and <br /> WhatsApp</h1>
+              <h1>Тюнинг, <br /> который говорит <br /> сам за себя</h1>
               <p>
-                Easily video call with friends and family on their smartphones <br />
-                and tablets, even if they don’t have Portal.
+                Каждый проект – уникальное произведение автомобильного искусства. <br />
+                Превращаем серийные модели в эксклюзив.
               </p>
               <small>
-                “Hey Portal” voice command availability varies. Learn more. Requires Messenger or WhatsApp account. <br />
-                WhatsApp is not available on tablets.
+                Эксклюзивные решения ограничены. Требуется консультация специалиста. <br />
+                Отдельные услуги недоступны для некоторых моделей.
               </small>
             </div>
           </div>

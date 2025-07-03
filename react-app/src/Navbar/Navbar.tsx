@@ -18,7 +18,7 @@ const Navbar = ({ onLoginClick } : NavbarProps) => {
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li className="nav-item">
                         <Link to="/cards" className="nav-link">
-                          Cards
+                          Наши проекты
                         </Link>
                     </li>
                 </ul>
@@ -27,7 +27,7 @@ const Navbar = ({ onLoginClick } : NavbarProps) => {
         type="button"
         onClick={onLoginClick}
       >
-        Log in
+        Войти
       </button>
       </div>
         </div>
