@@ -28,14 +28,14 @@ export default function ProductShowcase() {
                             <div className="col-md-3">
                                 <div className="card">
                                     <div className="card-body" data-type="crd">
-                                        <h5 className="card-title carousel-title">Portal TV</h5>
-                                        <h6 className="card-subtitle text-muted">$149</h6>
+                                        <h5 className="card-title carousel-title">Закись азота</h5>
+                                        <h6 className="card-subtitle text-muted">25 000₽</h6>
                                         <img src="src/assets/images/nos.png" className="card-img-top" alt="Товар 1"></img>
-                                        <p className="card-text">Smart video calling on <br></br>your TV</p>
+                                        <p className="card-text">Мгновенный прирост мощности +150 л.с.<br></br>для драг-рейсинга</p>
                                         <div>
-                                            <button className="btn btn-primary">Buy Now</button>
+                                            <button className="btn btn-primary">Заказать</button>
                                             <br></br>
-                                            <button className="btn btn-link">Learn More</button>
+                                            <button className="btn btn-link">Описание</button>
                                         </div>
                                     </div>
                                 </div>
@@ -43,14 +43,14 @@ export default function ProductShowcase() {
                             <div className="col-md-3">
                                 <div className="card">
                                     <div className="card-body" data-type="crd">
-                                        <h5 className="card-title carousel-title">Portal</h5>
-                                        <h6 className="card-subtitle text-muted">$179</h6>
+                                        <h5 className="card-title carousel-title">Подвеска</h5>
+                                        <h6 className="card-subtitle text-muted">42 000₽</h6>
                                         <img src="src/assets/images/podveska.png" className="card-img-top" alt="Товар 2"></img>
-                                        <p className="card-text">Smart video calling <br></br>on a 10” HD display</p>
+                                        <p className="card-text">Койловеры с регулировкой жесткости<br></br>и клиренса</p>
                                         <div>
-                                            <button className="btn btn-primary">Buy Now</button>
+                                            <button className="btn btn-primary">Заказать</button>
                                             <br></br>
-                                            <button className="btn btn-link">Learn More</button>
+                                            <button className="btn btn-link">Описание</button>
                                         </div>
                                     </div>
                                 </div>
@@ -58,14 +58,14 @@ export default function ProductShowcase() {
                             <div className="col-md-3">
                                 <div className="card">
                                     <div className="card-body" data-type="crd">
-                                        <h5 className="card-title carousel-title">Portal+</h5>
-                                        <h6 className="card-subtitle text-muted">$279</h6>
+                                        <h5 className="card-title carousel-title">Нагнетатель</h5>
+                                        <h6 className="card-subtitle text-muted">68 000₽</h6>
                                         <img src="src/assets/images/nagnetatel.png" className="card-img-top" alt="Товар 3"></img>
-                                        <p className="card-text">Smart video calling on <br></br>a 15.6” HD display</p>
+                                        <p className="card-text">Компрессорный наддув<br></br>без турбоямы</p>
                                         <div>
-                                            <button className="btn btn-primary">Buy Now</button>
+                                            <button className="btn btn-primary">Заказать</button>
                                             <br></br>
-                                            <button className="btn btn-link">Learn More</button>
+                                            <button className="btn btn-link">Описание</button>
                                         </div>
                                     </div>
                                 </div>
@@ -73,14 +73,14 @@ export default function ProductShowcase() {
                             <div className="col-md-3">
                                 <div className="card">
                                     <div className="card-body" data-type="crd">
-                                        <h5 className="card-title carousel-title">Portal Mini</h5>
-                                        <h6 className="card-subtitle text-muted">$129</h6>
+                                        <h5 className="card-title carousel-title">Турбина</h5>
+                                        <h6 className="card-subtitle text-muted">37 000₽</h6>
                                         <img src="src/assets/images/turbina.png" className="card-img-top" alt="Товар 4"></img>
-                                        <p className="card-text">Smart video calling <br></br>on an 8” HD display</p>
+                                        <p className="card-text">Турбокит Garrett для увеличения<br></br>мощности до 40%</p>
                                         <div>
-                                            <button className="btn btn-primary">Buy Now</button>
+                                            <button className="btn btn-primary">Заказать</button>
                                             <br></br>
-                                            <button className="btn btn-link">Learn More</button>
+                                            <button className="btn btn-link">Описание</button>
                                         </div>
                                     </div>
                                 </div>
@@ -92,14 +92,14 @@ export default function ProductShowcase() {
                             <div className="col-md-3">
                                 <div className="card">
                                     <div className="card-body" data-type="crd">
-                                        <h5 className="card-title carousel-title">Portal TV</h5>
-                                        <h6 className="card-subtitle text-muted">$149</h6>
+                                        <h5 className="card-title carousel-title">Закись азота</h5>
+                                        <h6 className="card-subtitle text-muted">25 000₽</h6>
                                         <img src="src/assets/images/nos.png" className="card-img-top" alt="Товар 1"></img>
-                                        <p className="card-text">Smart video calling on <br></br>your TV</p>
+                                        <p className="card-text">Мгновенный прирост мощности +150 л.с.<br></br>для драг-рейсинга</p>
                                         <div>
-                                            <button className="btn btn-primary">Buy Now</button>
+                                            <button className="btn btn-primary">Заказать</button>
                                             <br></br>
-                                            <button className="btn btn-link">Learn More</button>
+                                            <button className="btn btn-link">Описание</button>
                                         </div>
                                     </div>
                                 </div>
@@ -107,14 +107,14 @@ export default function ProductShowcase() {
                             <div className="col-md-3">
                                 <div className="card">
                                     <div className="card-body" data-type="crd">
-                                        <h5 className="card-title carousel-title">Portal</h5>
-                                        <h6 className="card-subtitle text-muted">$179</h6>
+                                        <h5 className="card-title carousel-title">Подвеска</h5>
+                                        <h6 className="card-subtitle text-muted">42 000₽</h6>
                                         <img src="src/assets/images/podveska.png" className="card-img-top" alt="Товар 2"></img>
-                                        <p className="card-text">Smart video calling <br></br>on a 10” HD display</p>
+                                        <p className="card-text">Койловеры с регулировкой жесткости<br></br>и клиренса</p>
                                         <div>
-                                            <button className="btn btn-primary">Buy Now</button>
+                                            <button className="btn btn-primary">Заказать</button>
                                             <br></br>
-                                            <button className="btn btn-link">Learn More</button>
+                                            <button className="btn btn-link">Описание</button>
                                         </div>
                                     </div>
                                 </div>
@@ -122,14 +122,14 @@ export default function ProductShowcase() {
                             <div className="col-md-3">
                                 <div className="card">
                                     <div className="card-body" data-type="crd">
-                                        <h5 className="card-title carousel-title">Portal+</h5>
-                                        <h6 className="card-subtitle text-muted">$279</h6>
+                                        <h5 className="card-title carousel-title">Нагнетатель</h5>
+                                        <h6 className="card-subtitle text-muted">68 000₽</h6>
                                         <img src="src/assets/images/nagnetatel.png" className="card-img-top" alt="Товар 3"></img>
-                                        <p className="card-text">Smart video calling on <br></br>a 15.6” HD display</p>
+                                        <p className="card-text">Компрессорный наддув<br></br>без турбоямы</p>
                                         <div>
-                                            <button className="btn btn-primary">Buy Now</button>
+                                            <button className="btn btn-primary">Заказать</button>
                                             <br></br>
-                                            <button className="btn btn-link">Learn More</button>
+                                            <button className="btn btn-link">Описание</button>
                                         </div>
                                     </div>
                                 </div>
@@ -137,14 +137,14 @@ export default function ProductShowcase() {
                             <div className="col-md-3">
                                 <div className="card">
                                     <div className="card-body" data-type="crd">
-                                        <h5 className="card-title carousel-title">Portal Mini</h5>
-                                        <h6 className="card-subtitle text-muted">$129</h6>
+                                        <h5 className="card-title carousel-title">Турбина</h5>
+                                        <h6 className="card-subtitle text-muted">37 000₽</h6>
                                         <img src="src/assets/images/turbina.png" className="card-img-top" alt="Товар 4"></img>
-                                        <p className="card-text">Smart video calling <br></br>on an 8” HD display</p>
+                                        <p className="card-text">Турбокит Garrett для увеличения<br></br>мощности до 40%</p>
                                         <div>
-                                            <button className="btn btn-primary">Buy Now</button>
+                                            <button className="btn btn-primary">Заказать</button>
                                             <br></br>
-                                            <button className="btn btn-link">Learn More</button>
+                                            <button className="btn btn-link">Описание</button>
                                         </div>
                                     </div>
                                 </div>
@@ -165,7 +165,7 @@ export default function ProductShowcase() {
       </div>
 
       <div className="text-center mb-3 compare-products-container">
-        <button className="btn btn-secondary">Compare Products</button>
+        <button className="btn btn-secondary">Сравнить пакеты</button>
       </div>
       <div className="background-rectangle2"></div>
     </div>
