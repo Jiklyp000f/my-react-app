@@ -1,0 +1,73 @@
+.car-promo {
+	background-image: url('src/assets/images/shelby.jpg');
+	background-size: cover;
+	height: 600px;
+	display: flex;
+	position: relative;
+	align-items: center;
+}
+
+.car-promo__content {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 50%;
+	margin-left: 30px;
+	text-shadow: 1px 1px 2px #000;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.car-promo__title,
+.car-promo__description {
+	color: #fff;
+}
+
+.car-promo__title {
+	font-size: 56px;
+}
+
+.car-promo__description {
+	font-size: 26px;
+	font-weight: normal;
+}
+
+@media screen and (max-width: 960px) {
+	.car-promo {
+		height: 400px;
+	}
+
+	.car-promo__content {
+		width: 100%;
+		background: none;
+		margin: 0;
+		z-index: 1;
+	}
+
+	.car-promo::after {
+		position: absolute;
+		content: '';
+		display: block;
+		inset: 0;
+		background-color: rgba(0, 0, 0, 0.4);
+		z-index: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.car-promo__title {
+		font-size: 36px;
+	}
+
+	.car-promo__description {
+		font-size: 16px;
+		font-weight: normal;
+	}
+
+	.car-promo__content {
+		padding: 10px;
+		gap: 10px;
+	}
+}

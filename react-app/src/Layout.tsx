@@ -1,27 +1,27 @@
 import Navbar from './Navbar/Navbar';
-import Footer from './Footer/Footer';
 import Modal from './Navbar/Modal';
-import type { ModalHandlers } from './Navbar/Modal'; 
+import type { ModalHandlers } from './Navbar/Modal';
 import { useRef } from 'react';
-import { Outlet } from 'react-router-dom'; 
+import { Outlet } from 'react-router-dom';
+import { Footer } from './Footer/Footer';
 
 function Layout() {
-  const modalRef = useRef<ModalHandlers>(null);
+	const modalRef = useRef<ModalHandlers>(null);
 
-  const handleLoginClick = () => {
-    if (modalRef.current) {
-      modalRef.current.show();
-    }
-  };
+	const handleLoginClick = () => {
+		if (modalRef.current) {
+			modalRef.current.show();
+		}
+	};
 
-  return (
-    <>  
-      <Modal ref={modalRef} />
-      <Navbar onLoginClick={handleLoginClick} />
-      <Outlet />
-      <Footer />
-    </>
-  );
+	return (
+		<>
+			<Modal ref={modalRef} />
+			<Navbar onLoginClick={handleLoginClick} />
+			<Outlet />
+			<Footer />
+		</>
+	);
 }
 
 export default Layout;

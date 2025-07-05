@@ -1,0 +1,92 @@
+.header {
+	min-height: 720px;
+	background: url('../../assets/images/nissan_gtr.png') no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	padding: 30px 50px;
+	position: relative;
+}
+
+.header__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	color: #fff;
+	width: 40%;
+	background: rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	padding: 60px 40px;
+	gap: 30px;
+}
+
+.promotion-block.header-promotion-block {
+	position: absolute;
+	width: 40%;
+	left: 0;
+	bottom: -50px;
+}
+
+.header-title,
+.header-description {
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.header-description {
+	font-size: 20px;
+	text-align: center;
+}
+
+.header_buttons {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+	.header {
+		min-height: 100vh;
+	}
+	.header__content {
+		width: 55%;
+		padding: 30px 20px;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.header {
+		background-size: 100%;
+		align-items: baseline;
+		min-height: fit-content;
+	}
+	.header__content {
+		width: 100%;
+		gap: 20px;
+	}
+
+	.header-title {
+		font-size: 18px;
+	}
+
+	.header-description {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.header_buttons {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.header_buttons a,
+	.header_buttons .button {
+		width: 100%;
+	}
+
+	.header__content {
+		background: rgba(0, 0, 0, 0.65);
+	}
+}
