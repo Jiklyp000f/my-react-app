@@ -1,3 +1,4 @@
+// типизация данных
 export interface ISliderData {
 	title: string;
 	price: string;
