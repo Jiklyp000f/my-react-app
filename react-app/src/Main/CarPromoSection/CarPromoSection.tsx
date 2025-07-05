@@ -1,8 +1,9 @@
-import { Link } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 import './CarPromoSection.css';
 import Button from '../../components/Buttons/Button';
 
 export const CarPromoSection = () => {
+	const navigate = useNavigate();
 	return (
 		<div className='car-promo'>
 			<div className='car-promo__content'>
@@ -10,9 +11,7 @@ export const CarPromoSection = () => {
 
 				<p className='car-promo__description'>Создаем автомобили, которые становятся легендами улиц и треков.</p>
 
-				<Link to='*'>
-					<Button type='bordered'>Создать</Button>
-				</Link>
+					<Button onClick={() => navigate('*')} type='bordered'>Создать</Button>
 
 				<ul className='car-promo__list'>
 					<li>Агрессивный дизайн, отражающий твой характер</li>

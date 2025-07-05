@@ -1,6 +1,8 @@
-import { Link } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 
 export default function AlexaSection() {
+  const navigate = useNavigate();
+  const handleNavigate = () => navigate("*");
   return (
     <div className="container-fluid p-0">
       <div className="row align-items-center p-3">
@@ -13,9 +15,7 @@ export default function AlexaSection() {
             отслеживай производительность и настрой <br />
             авто под себя голосом.
           </p>
-          <Link to="*">
-            <button type="button" className="btn btn-info learn-more-button">Технологии</button>
-          </Link>
+            <button onClick={handleNavigate} type="button" className="btn btn-info learn-more-button">Технологии</button>
         </div>
         <div className="col-md-6 text-center p-0">
           <img src="src/assets/images/turbo.webp" className="img-fluid" alt="Изображение" />

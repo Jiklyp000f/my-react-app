@@ -1,8 +1,9 @@
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './FeatureSection.css';
 import Button from '../../components/Buttons/Button';
 
 export default function FeatureSection() {
+	const navigate = useNavigate();
 	return (
 		<div className='feature block-container'>
 			<div>
@@ -12,11 +13,9 @@ export default function FeatureSection() {
 					<p className='feature__description'>
 						Используем сертифицированные компоненты и системы защиты. Каждый элемент проверен на надежность.
 					</p>
-					<Link to='*'>
-						<Button type='bordered' className='feature__button'>
+						<Button onClick={() => navigate('/cards')} type='bordered' className='feature__button'>
 							Примеры работ
 						</Button>
-					</Link>
 				</div>
 			</div>
 			<div className=''>
@@ -26,11 +25,9 @@ export default function FeatureSection() {
 					<p className='feature__description'>
 						От турбонаддува до чип-тюнинга&nbsp;– раскрываем истинный потенциал вашего автомобиля.
 					</p>
-					<Link to='*'>
-						<Button type='bordered' className='feature__button'>
+					<Button onClick={() => navigate('/cards')} type='bordered' className='feature__button'>
 							Примеры работ
 						</Button>
-					</Link>
 				</div>
 			</div>
 		</div>

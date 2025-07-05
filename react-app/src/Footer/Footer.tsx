@@ -15,42 +15,42 @@ export const Footer = () => {
 						<div className='footer__links'>
 							<div className='footer__links-block'>
 								<Link to="*">
-                  					<a href="#">Главная</a>
+                  					Главная
                   				</Link>
                   				<Link to="*">
-                  					<a href="#">Услуги</a>
+                  					Услуги
                   					</Link>
                   				<Link to="*">
-                  					<a href="#">Технологии</a>
+                  					Технологии
                   				</Link>
                   				<Link to="*">
-                  					<a href="#">Безопасность</a>
+                  					Безопасность
                   				</Link>
                   				<Link to="*">
-                  					<a href="#">Поддержка</a>
+                  					Поддержка
                   				</Link>
                   				<Link to="*">
-                  					<a href="#">Карта сайта</a>
+                  					Карта сайта
                   				</Link>
 							</div>
 							<div className='footer__links-block'>
 								 <Link to="*">
-                  					<a href="#">Конфиденциальность</a>
+                  					Конфиденциальность
                   				</Link>
                   				<Link to="*">
-                  					<a href="#">Файлы cookie</a>
+                  					Файлы cookie
                   				</Link>
                   				<Link to="*">
-                  					<a href="#">Условия</a>
+                  					Условия
                   				</Link>
                   				<Link to="*">
-                  					<a href="#">Информация</a>
+                  					Информация
                   				</Link>
                   				<Link to="*">
-                  					<a href="#">Условия</a>
+                  					Условия
                   				</Link>
                   				<Link to="*">
-                  					<a href="#">Реклама</a>
+                  					Реклама
                   				</Link>
 							</div>
 						</div>

@@ -1,8 +1,9 @@
-import { Link } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 import Button from '../../components/Buttons/Button';
 import type { ISliderData } from './sliderData';
 
 const SliderCard: React.FC<ISliderData> = ({ title, price, description, image, alt }) => {
+	const navigate = useNavigate();
 	return (
 		<div className='slide-content'>
 			<div className='slider-card'>
@@ -11,9 +12,8 @@ const SliderCard: React.FC<ISliderData> = ({ title, price, description, image, a
 				<img src={`src/assets/images/${image}`} className='slider-card__image' alt={alt}></img>
 				<p className='card-text'>{description}</p>
 				<div>
-					<Link to='*'>
-						<Button>Заказать</Button>
-					</Link>
+
+						<Button onClick={() => navigate('*')}>Заказать</Button>
 					<br></br>
 				</div>
 			</div>

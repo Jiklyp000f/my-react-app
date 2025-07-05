@@ -14,10 +14,10 @@ export const PromotionBanner: React.FC<IProps> = ({ image, link, description, li
 		<div className={`promotion-block ${className ? className : ''}`}>
 			<img className='promotion-block__image' src={image} alt='Эмблема' />
 			<div>
-				<Link to={link}>
-					<a href='#' className='promotion-block-title'>
+				<Link className='promotion-block-title' to= {link }>
+
 						{linkText}
-					</a>
+
 				</Link>
 				<p className='promotion-block-description'>{description}</p>
 			</div>

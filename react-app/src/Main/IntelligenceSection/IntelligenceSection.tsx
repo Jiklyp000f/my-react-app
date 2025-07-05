@@ -1,8 +1,9 @@
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './IntelligenceSection.css';
 import Button from '../../components/Buttons/Button';
 
 export const IntelligenceSection = () => {
+	const navigate = useNavigate();
 	return (
 		<div className='intelligence block-container'>
 			<div className='intelligence-content'>
@@ -13,9 +14,7 @@ export const IntelligenceSection = () => {
 					отслеживай производительность и настрой <br />
 					авто под себя голосом.
 				</p>
-				<Link to='*'>
-					<Button>Технологии</Button>
-				</Link>
+					<Button onClick={() => navigate('*')}>Технологии</Button>
 			</div>
 			<div className='intelligence-image'>
 				<img src='src/assets/images/turbo.webp' className='image-rounded' alt='Мотор' />

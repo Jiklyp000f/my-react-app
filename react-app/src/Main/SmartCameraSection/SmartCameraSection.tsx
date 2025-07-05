@@ -18,10 +18,8 @@ export default function SmartCameraSection() {
 					<p className='smart-camera-section__content-description'>
 						Мы создаем уникальные решения, учитывая все пожелания клиента и технические возможности авто.
 					</p>
-					<Link to='*' className='no-underline'>
-						<a href='#' className='smart-camera-section__link'>
+					<Link to='*' className='smart-camera-section__link no-underline' >
 							Подробнее
-						</a>
 					</Link>
 				</div>
 				<div className='smart-camera-section__content-item'>
@@ -29,10 +27,8 @@ export default function SmartCameraSection() {
 					<p className='smart-camera-section__content-description'>
 						Используем инновационные материалы и системы для максимальной производительности.
 					</p>
-					<Link to='*'>
-						<a href='#' className='smart-camera-section__link'>
+					<Link to='*' className='smart-camera-section__link'>
 							Подробнее
-						</a>
 					</Link>
 				</div>
 			</div>
