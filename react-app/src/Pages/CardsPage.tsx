@@ -1,4 +1,4 @@
-import { CardsSection } from './CardsSection/CardsSection';
+import { CardsSection } from '../Main/CardsSection/CardsSection';
 
 export default function CardsPage() {
 	return (
