@@ -1,5 +1,3 @@
-/* Global styles before*/
-
 img{
     max-width: 100%;
     height: auto;
@@ -62,8 +60,6 @@ button.btn.btn-outline-success {
     background-color: black;
 }
 
-
-/* Global styles new*/
 .page-wrapper {
 	display: flex;
 	flex-direction: column;

@@ -1,4 +1,3 @@
-import Header from '../components/Header/Header';
 import SmartCameraSection from '../Main/SmartCameraSection/SmartCameraSection';
 import { VideoCallSection } from '../Main/VideoCallSection/VideoCallSection';
 import { CarPromoSection } from '../Main/CarPromoSection/CarPromoSection';
@@ -9,6 +8,7 @@ import { SliderSection } from '../Main/SliderSection/SliderSection';
 import { BannerTop } from '../components/Banners/BannerTop';
 import { BannerMiddle } from '../components/Banners/BannerMiddle';
 import { BannerBottom } from '../components/Banners/BannerBottom';
+import Header from '../Header/Header';
 
 export default function HomePage() {
 	return (
