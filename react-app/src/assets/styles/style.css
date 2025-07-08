@@ -52,6 +52,23 @@ button.btn.btn-outline-success {
 
 }
 
+button.btn.btn-outline-success:hover {
+	background-color: gray;
+	color: white;
+}
+
+button.btn.btn-outline-success:active {
+	background-color: black;
+	color: white;
+	border: black;
+}
+
+button.btn.btn-primary{
+	background-color: black;
+	color: white;
+	border: black;
+}
+
 .collapse.navbar-collapse{
     margin-right: 5%;
 }
