@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, memo } from 'react';
 import './Cards.css';
 import { Loader } from '../../components/Loaders/Loader';
 
@@ -13,7 +13,7 @@ interface CardsSectionProps {
   limit: number;
 }
 
-export const CardsSection = ({ limit }: CardsSectionProps) => {
+export const CardsSection = memo(({ limit }: CardsSectionProps) => {
 	const [cards, setCards] = useState<Card[]>([]);
 	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState<string | null>(null);
@@ -28,7 +28,6 @@ export const CardsSection = ({ limit }: CardsSectionProps) => {
 
 				const cardsData = await response.json();
 
-				// Ждем загрузки всех изображений
 				setCards(cardsData);
 				setError(null);
 			} catch (err) {
@@ -67,4 +66,4 @@ export const CardsSection = ({ limit }: CardsSectionProps) => {
 			))}
 		</div>
 	);
-};
+});

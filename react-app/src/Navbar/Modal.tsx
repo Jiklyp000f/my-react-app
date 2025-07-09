@@ -1,12 +1,17 @@
 import * as bootstrap from 'bootstrap'; 
-import { forwardRef, useImperativeHandle, useRef } from 'react';
+import { forwardRef, useImperativeHandle, useRef, type FormEvent } from 'react';
 import type { Ref } from 'react';
+
 export interface ModalHandlers {
   show: () => void;
   hide: () => void;
 }
 
-const Modal = forwardRef<ModalHandlers>((_, ref: Ref<ModalHandlers>) => {
+interface ModalProps {
+  onLogin: (name: string) => void;
+}
+
+const Modal = forwardRef<ModalHandlers, ModalProps>(({ onLogin }, ref: Ref<ModalHandlers>) => {
   const modalRef = useRef<HTMLDivElement>(null);
   
   useImperativeHandle(ref, () => ({
@@ -24,6 +29,19 @@ const Modal = forwardRef<ModalHandlers>((_, ref: Ref<ModalHandlers>) => {
     }
   }));
 
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const nameInput = form.querySelector('#nameInput') as HTMLInputElement;
+    const name = nameInput.value;
+    onLogin(name);
+    
+    if (modalRef.current) {
+      const modal = bootstrap.Modal.getInstance(modalRef.current);
+      if (modal) modal.hide();
+    }
+  };
+
   return (
     <div 
       className="modal fade" 
@@ -34,7 +52,7 @@ const Modal = forwardRef<ModalHandlers>((_, ref: Ref<ModalHandlers>) => {
       <div className="modal-dialog modal-dialog-centered">
         <div className="modal-content">
           <div className="modal-body">
-            <form>
+            <form onSubmit={handleSubmit}>
               <div className="mb-3">
                 <label htmlFor="nameInput" className="form-label">Имя</label>
                 <input type="text" className="form-control" id="nameInput" required />
