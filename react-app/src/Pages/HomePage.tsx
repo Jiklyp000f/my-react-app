@@ -8,12 +8,12 @@ import { SliderSection } from '../Main/SliderSection/SliderSection';
 import { BannerTop } from '../components/Banners/BannerTop';
 import { BannerMiddle } from '../components/Banners/BannerMiddle';
 import { BannerBottom } from '../components/Banners/BannerBottom';
-import Header from '../Header/Header';
+import WelcomeSlide from '../Main/WelcomeSlide/WelcomeSlide';
 
 export default function HomePage() {
 	return (
 		<div className='page-wrapper'>
-			<Header />
+			<WelcomeSlide />
 			<BannerTop />
 			<CardsSection limit={3} />
 			<SmartCameraSection />
