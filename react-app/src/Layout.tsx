@@ -7,36 +7,32 @@ import { Footer } from './Footer/Footer';
 import Preloader from './Preloader/Preloader';
 
 function Layout() {
-	const modalRef = useRef<ModalHandlers>(null);
-	const [userName, setUserName] = useState<string | null>(null);
+  const modalRef = useRef<ModalHandlers>(null);
+  const [userName, setUserName] = useState<string | null>(null);
 
-	const handleLoginClick = () => {
-		if (modalRef.current) {
-			modalRef.current.show();
-		}
-	};
+  const handleLoginClick = () => {
+    if (modalRef.current) {
+      modalRef.current.show();
+    }
+  };
 
-	const handleLogin = useCallback((name: string) => {
-    	setUserName(name);
- 	}, []);
+  const handleLogin = useCallback((name: string) => {
+    setUserName(name);
+  }, []);
 
-  	const handleLogout = useCallback(() => {
-    	setUserName(null);
-  	}, []);
+  const handleLogout = useCallback(() => {
+    setUserName(null);
+  }, []);
 
-	return (
-		<>
-			<Preloader />
-			<Navbar 
-        		onLoginClick={handleLoginClick} 
-        		userName={userName} 
-        		onLogout={handleLogout} 
-      		/>
-      		<Modal ref={modalRef} onLogin={handleLogin} />
-			<Outlet />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <Preloader />
+      <Navbar onLoginClick={handleLoginClick} userName={userName} onLogout={handleLogout} />
+      <Modal ref={modalRef} onLogin={handleLogin} />
+      <Outlet />
+      <Footer />
+    </>
+  );
 }
 
 export default Layout;

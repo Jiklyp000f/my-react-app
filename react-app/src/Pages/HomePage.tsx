@@ -11,19 +11,19 @@ import { BannerBottom } from '../components/Banners/BannerBottom';
 import WelcomeSlide from '../Main/WelcomeSlide/WelcomeSlide';
 
 export default function HomePage() {
-	return (
-		<div className='page-wrapper'>
-			<WelcomeSlide />
-			<BannerTop />
-			<CardsSection limit={3} />
-			<SmartCameraSection />
-			<VideoCallSection />
-			<CarPromoSection />
-			<IntelligenceSection />
-			<BannerMiddle />
-			<FeatureSection />
-			<BannerBottom />
-			<SliderSection />
-		</div>
-	);
+  return (
+    <div className="page-wrapper">
+      <WelcomeSlide />
+      <BannerTop />
+      <CardsSection limit={3} />
+      <SmartCameraSection />
+      <VideoCallSection />
+      <CarPromoSection />
+      <IntelligenceSection />
+      <BannerMiddle />
+      <FeatureSection />
+      <BannerBottom />
+      <SliderSection />
+    </div>
+  );
 }

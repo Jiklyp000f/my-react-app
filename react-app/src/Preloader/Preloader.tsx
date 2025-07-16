@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import './Preloader.css'; 
+import './Preloader.css';
 
 const Preloader = () => {
   useEffect(() => {

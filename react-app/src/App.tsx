@@ -5,17 +5,17 @@ import CardsPage from './Pages/CardsPage';
 import NotFoundPage from './Pages/NotFoundPage';
 
 function App() {
-	return (
-		<BrowserRouter>
-			<Routes>
-				<Route path='/' element={<Layout />}>
-					<Route index element={<HomePage />} />
-					<Route path='cards' element={<CardsPage />} />
-					<Route path='*' element={<NotFoundPage />} />
-				</Route>
-			</Routes>
-		</BrowserRouter>
-	);
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="cards" element={<CardsPage />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
