@@ -1,0 +1,169 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+li.nav-item {
+  margin-right: 20px;
+}
+
+a.nav-link {
+  color: white;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+}
+
+p {
+  color: #222222;
+  font-weight: bold;
+}
+
+img.logo {
+  height: 1%;
+  width: 15%;
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+button.btn.btn-outline-success {
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 7px 20px;
+  font-size: 15px;
+}
+
+button.btn.btn-outline-success:hover {
+  background-color: gray;
+  color: white;
+}
+
+button.btn.btn-outline-success:active {
+  background-color: black;
+  color: white;
+  border: black;
+}
+
+button.btn.btn-primary {
+  background-color: black;
+  color: white;
+  border: black;
+}
+
+.collapse.navbar-collapse {
+  margin-right: 5%;
+}
+
+.navbar.navbar-expand-lg {
+  background-color: black;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.block-container {
+  margin: auto;
+  max-width: 1280px;
+  padding: 0 10px;
+}
+
+.image-rounded {
+  border-radius: 10px;
+}
+
+.text-secondary {
+  color: #777;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.loader::after {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background: #ff3d00;
+  width: 3px;
+  height: 24px;
+  transform: translateX(-50%);
+}
+
+.auth-state {
+  transition: all 0.3s ease;
+}
+
+.user-greeting {
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .user-greeting {
+    max-width: 100px;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .user-greeting {
+    display: none;
+  }
+
+  .logout-btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-nav .nav-link {
+  white-space: nowrap;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
